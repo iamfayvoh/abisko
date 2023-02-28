@@ -1,0 +1,51 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul a{
+	text-decoration: none;
+	margin: 0px 10px;
+	font-size: 20px;
+	color: white;
+	}
+
+nav li{
+	list-style: none;
+	display: inline;
+	line-height: 80px;
+
+}
+nav{
+	background:#303841 ;
+	text-align: center;
+	height: 80px;
+}
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+li a:hover{
+	color: #E5F1FB;
+	border-bottom: 3px solid #FF9800;
+	border-bottom-right-radius: 10px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+
